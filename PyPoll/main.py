@@ -27,7 +27,7 @@ with open(PyBank_csvpath) as csvfile:
     total_votes =len(Ballot_IDs)
     # Finding the unique candidates names
     Unique_Canditate_Names=set(Candidates)
-    print(Unique_Canditate_Names)
+
            
 #Specify the file to write to   
 output_file =os.path.join("analysis","PyPoll_results.txt")
