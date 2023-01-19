@@ -1,6 +1,6 @@
-# python-challenge
+## python-challenge
 
-PyBank Results
+# PyBank Results
  
 
 Financial Analysis 
@@ -20,7 +20,7 @@ Greatest Decrease in Profits: Feb-14($-1825558)
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
-PyPoll Results
+# PyPoll Results
 
 
 Election Results 
