@@ -38,7 +38,7 @@ with open(PyBank_csvpath) as csvfile:
             Vote_Counter_by_Candidate.append(Vote_Counter)
             highest_votes = Vote_Counter_by_Candidate.index(max(Vote_Counter_by_Candidate))
             Winner= Unique_Canditate_Names[int(highest_votes)]
-            print(f'{Candidate}: {Vote_Percentage}% ({Vote_Counter})')
+            print(f'{Candidate}: {Vote_Percentage}%  ({Vote_Counter})')
         print("------------------------------------------------------")
         print(f'Winner: {Winner}')
         print("------------------------------------------------------")
@@ -54,7 +54,7 @@ with open(PyBank_csvpath) as csvfile:
             Vote_Counter_by_Candidate.append(Vote_Counter)
             highest_votes = Vote_Counter_by_Candidate.index(max(Vote_Counter_by_Candidate))
             Winner= Unique_Canditate_Names[int(highest_votes)]
-            f.write(f'{Candidate}: {Vote_Percentage}% ({Vote_Counter})\n\n')
+            f.write(f'{Candidate}: {Vote_Percentage}%  ({Vote_Counter})\n\n')
         f.write("------------------------------------------------------ \n\n")
         f.write(f'Winner: {Winner}\n\n')
         f.write("------------------------------------------------------ \n\n")

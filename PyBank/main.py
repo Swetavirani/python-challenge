@@ -50,8 +50,8 @@ with open(output_file, "w") as f:
     f.write("Total Months: " + str(total_months)+ "\n\n")
     f.write("Total: $" + str(profitloss_total)+ "\n\n")
     f.write("Average Change: $"+ str(average_change)+ "\n\n")
-    f.write("Greatest Increase in Profits: "+change_month_increase+ "($"+ str(greatest_increase_in_profits)+")"+"\n\n")
-    f.write("Greatest Decrease in Profits: "+change_month_decrease+ "($"+ str(greatest_decrease_in_profits)+")"+"\n\n")
+    f.write("Greatest Increase in Profits: "+change_month_increase+ " ($"+ str(greatest_increase_in_profits)+")"+"\n\n")
+    f.write("Greatest Decrease in Profits: "+change_month_decrease+ " ($"+ str(greatest_decrease_in_profits)+")"+"\n\n")
     
 # Printing analysis to the terminal  
     print("Financial Analysis" )
@@ -59,6 +59,6 @@ with open(output_file, "w") as f:
     print("Total Months: " + str(total_months))
     print("Total: $" + str(profitloss_total))
     print("Average Change: $"+ str(average_change))
-    print("Greatest Increase in Profits: "+change_month_increase+ "($"+ str(greatest_increase_in_profits)+")")
-    print("Greatest Decrease in Profits: "+change_month_decrease+ "($"+ str(greatest_decrease_in_profits)+")")
+    print("Greatest Increase in Profits: "+change_month_increase+ " ($"+ str(greatest_increase_in_profits)+")")
+    print("Greatest Decrease in Profits: "+change_month_decrease+ " ($"+ str(greatest_decrease_in_profits)+")")
 
